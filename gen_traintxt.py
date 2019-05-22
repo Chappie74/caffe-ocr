@@ -13,6 +13,7 @@ def createTrainvalTxt(baseDirDataSet):
         print(folder)
         for filename in os.listdir(newBase):
             name, extension = os.path.splitext(filename)
+            if extension != ".png"
             s = 'training_images/'+ folder +'/'+name+  '.png' + ' ' + str(idx)
             img_file, anno = s.strip("\n").split(" ")
             s += '\n'
