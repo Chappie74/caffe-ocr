@@ -426,7 +426,6 @@ training_images/B/TimesNewRoman-5-3.png 11
 training_images/P/ComicSansMS-6-1.png 25
 training_images/P/TimesNewRoman-9-4.png 25
 training_images/M/Georgia-2-3.png 22
-training_images/S/TimesNewRoman-10-4.png 28
 training_images/Z/TrebuchetMS-8-1.png 35
 training_images/M/Impact-3-2.png 22
 training_images/J/TrebuchetMS-10-0.png 19
