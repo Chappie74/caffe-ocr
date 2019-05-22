@@ -4,8 +4,9 @@ def createTrainvalTxt(baseDirDataSet):
     buffer = ''
     baseDir = baseDirDataSet+'/training_images'
     for (idx,folder) in enumerate(os.listdir(baseDir)):
-        if folder not in ['0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']:
-            continue
+        dataset =  ['0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
+        if folder in dataset:
+            idx = dataset.index(folder)
         newBase = baseDir + '/' + folder
         print(folder)
         for filename in os.listdir(newBase):
