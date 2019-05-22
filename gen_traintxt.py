@@ -5,6 +5,7 @@ def createTrainvalTxt(baseDirDataSet):
     baseDir = baseDirDataSet+'/training_images'
     for (idx,folder) in enumerate(os.listdir(baseDir)):
         newBase = baseDir + '/' + folder
+        print(folder)
         for filename in os.listdir(newBase):
             name, extension = os.path.splitext(filename)
             s = 'training_images/'+ folder +'/'+name+  '.png' + ' ' + str(idx)
